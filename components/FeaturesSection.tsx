@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface Feature {
@@ -52,7 +51,7 @@ const FeatureItem: React.FC<{ feature: Feature }> = ({ feature }) => (
 
 const FeaturesSection: React.FC = () => {
   return (
-    <section className="mt-20 sm:mt-32 text-center">
+    <section id="features" className="mt-20 sm:mt-32 text-center">
       <h2 className="text-4xl font-bold text-white mb-5">Why Choose G-LogicLens?</h2>
       <p className="max-w-3xl mx-auto mb-12 text-lg text-slate-300">
         Our simulations are designed with educators and students in mind, combining proven pedagogical methods with engaging technology.

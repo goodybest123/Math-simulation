@@ -20,7 +20,7 @@ const HeroMascot: React.FC = () => (
 
 const Hero: React.FC = () => {
   return (
-    <header className="flex flex-col md:flex-row justify-between items-center mb-20 md:mb-32 gap-12 md:gap-16">
+    <section className="flex flex-col md:flex-row justify-between items-center mb-20 md:mb-32 gap-12 md:gap-16">
       <div className="flex-1 max-w-2xl text-center md:text-left">
         <h1 className="text-5xl lg:text-7xl font-bold mb-6 lg:mb-8 leading-tight">
           G-LogicLens Simulations
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
       <div className="w-[300px] relative">
         <HeroMascot />
       </div>
-    </header>
+    </section>
   );
 };
 

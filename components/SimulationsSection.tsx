@@ -195,7 +195,7 @@ const Card: React.FC<{ simulation: Simulation }> = ({ simulation }) => (
 
 const SimulationsSection: React.FC = () => {
   return (
-    <section>
+    <section id="simulations">
       <h2 className="text-4xl font-bold text-cyan-400 mb-4">Simulation Library</h2>
       <p className="text-lg leading-relaxed text-slate-300 mb-10">Explore, play and understand math like never before</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
