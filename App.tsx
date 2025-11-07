@@ -3,6 +3,7 @@ import React from 'react';
 import DecorativeElements from './components/DecorativeElements';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import AboutSection from './components/AboutSection';
 import SimulationsSection from './components/SimulationsSection';
 import FeaturesSection from './components/FeaturesSection';
 import CtaSection from './components/CtaSection';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       
       <main className="max-w-screen-xl mx-auto px-5 sm:px-10 py-16 sm:py-24 relative z-10">
         <Hero />
+        <AboutSection />
         <SimulationsSection />
         <FeaturesSection />
         <CtaSection />

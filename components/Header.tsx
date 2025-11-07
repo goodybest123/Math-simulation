@@ -19,9 +19,9 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex">
             <ul className="flex items-center space-x-8 text-lg">
               <NavLink href="#">Home</NavLink>
+              <NavLink href="#about-us">About us</NavLink>
               <NavLink href="#simulations">Simulations</NavLink>
               <NavLink href="#features">Why choose us</NavLink>
-              <NavLink href="#about-contact">About us</NavLink>
               <NavLink href="#about-contact">Contact</NavLink>
             </ul>
           </nav>
